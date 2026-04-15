@@ -1,0 +1,11 @@
+{
+    "Healthy_Leaf": 0,
+    "Healthy_Nut": 1,
+    "Healthy_Trunk": 2,
+    "Mahali_Koleroga": 3,
+    "Stem_bleeding": 4,
+    "bud borer": 5,
+    "healthy_foot": 6,
+    "stem cracking": 7,
+    "yellow leaf disease": 8
+}

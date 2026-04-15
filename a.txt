@@ -1,0 +1,13 @@
+Creating virtual environment:  python3 -m venv myenv
+
+activating :                   .\venv\Scripts\Activate.ps1
+
+deactivating:                  deactivate
+
+
+
+
+
+To run app.py:                 streamlit run App.py
+
+

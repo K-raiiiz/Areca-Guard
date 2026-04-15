@@ -1,0 +1,23 @@
+# --- Core AI Stack (RTX 3050 Optimized) ---
+tensorflow-gpu==2.10.0  # The "Brain" - Main framework that uses the GPU to train the AI
+numpy==1.23.5           # The "Math Teacher" - Handles all the complex numerical calculations
+h5py==3.7.0             # The "Storage" - Saves and loads the final trained model file (.h5)
+scipy==1.9.3            # The "Scientist" - Advanced math used for processing image signals
+scikit-learn            # The "Evaluator" - Generates the Confusion Matrix and Accuracy reports
+
+# --- Data Handling & Viz ---
+pandas==1.5.3           # The "Organizer" - Manages training data in clean tables and lists
+matplotlib==3.6.2       # The "Artist" - used to display training progress and results visually
+seaborn==0.12.1         # The "Designer" - used for data visualization and heatmaps
+pillow==9.3.0           # The "Image Loader" - Opens and prepares raw images for the AI
+
+# --- Image Processing ---
+opencv-python==4.6.0.66 # The "Computer vision" - Used to process and resize the user's uploaded photo
+
+# --- App & Utilities ---
+streamlit==1.15.0       # The "Interface" - Turns the code into a clickable website for the farmer
+fpdf==1.7.2             # The "Reporter" - Creates a downloadable PDF of the disease diagnosis
+protobuf==3.19.6        # The "Translator" - Helps different parts of TensorFlow talk to each other
+
+#Language
+Python==3.10.11      # The "Language" - which supports all the above libraries
