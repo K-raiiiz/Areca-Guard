@@ -9,7 +9,7 @@ import io
 # --- 1. SET PAGE CONFIG ---
 st.set_page_config(
     page_title="ArecaGuard Pro",
-    page_icon="Assets/Areca_logo.png",
+    page_icon="static/Areca_logo.png",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
