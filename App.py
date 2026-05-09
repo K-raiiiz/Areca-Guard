@@ -51,10 +51,15 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- INJECT MANIFEST LINK FOR PWA LOGO SUPPORT ---
-st.markdown(
-    '<link rel="manifest" href="Assets/manifest.json">',
-    unsafe_allow_html=True
-)
+# --- INJECT MANIFEST + APPLE TOUCH ICON FOR HOME SCREEN LOGO ---
+st.markdown("""
+    <link rel="manifest" href="/App/static/manifest.json">
+    <link rel="apple-touch-icon" href="/App/static/Areca_logo.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="ArecaGuard">
+    <meta name="theme-color" content="#2e7d32">
+""", unsafe_allow_html=True)
 
 # --- 3. CORE PROCESSING FUNCTIONS ---
 @st.cache_resource
