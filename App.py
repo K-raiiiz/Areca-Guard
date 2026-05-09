@@ -9,7 +9,7 @@ import io
 # --- 1. SET PAGE CONFIG ---
 st.set_page_config(
     page_title="ArecaGuard Pro",
-    page_icon="static/Areca_logo.png",
+    page_icon="Assets/Areca_logo.png",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
@@ -48,17 +48,6 @@ st.markdown("""
     }
     .stFileUploader label { color: var(--text-color); }
 </style>
-""", unsafe_allow_html=True)
-
-# --- INJECT MANIFEST LINK FOR PWA LOGO SUPPORT ---
-# --- INJECT MANIFEST + APPLE TOUCH ICON FOR HOME SCREEN LOGO ---
-st.markdown("""
-    <link rel="manifest" href="/App/static/manifest.json">
-    <link rel="apple-touch-icon" href="/App/static/Areca_logo.png">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="apple-mobile-web-app-title" content="ArecaGuard">
-    <meta name="theme-color" content="#2e7d32">
 """, unsafe_allow_html=True)
 
 # --- 3. CORE PROCESSING FUNCTIONS ---
